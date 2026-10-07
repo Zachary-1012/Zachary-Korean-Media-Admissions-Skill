@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "name": "korean-media-admissions",
+  "display_name": "Zachary Korean Media Admissions Skill",
+  "description": "Interactive Korean curriculum for SNU/CAU media communication, marketing, advertising and PR admissions.",
+  "entrypoint": "index.html",
+  "skill_file": "SKILL.md",
+  "degree_modes": [
+    "undergraduate",
+    "master",
+    "phd"
+  ],
+  "default_degree_mode": "master",
+  "target_fields": [
+    "media communication",
+    "media marketing",
+    "advertising",
+    "public relations",
+    "international communication"
+  ],
+  "target_schools": [
+    "Seoul National University",
+    "Chung-Ang University"
+  ],
+  "languages": [
+    "zh-CN",
+    "ko-KR",
+    "en"
+  ],
+  "tts": {
+    "type": "browser-system",
+    "locale": "ko-KR",
+    "external_audio": false
+  },
+  "public": true
+}
